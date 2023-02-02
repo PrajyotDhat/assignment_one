@@ -42,12 +42,12 @@ function App() {
 
           <div>
             <label className='num'>Number 1</label>
-            <input type="text" placeholder="Enter the number" required value={num1} onChange={(e) => setNum1(e.target.value)} />
+            <input type="number" placeholder="Enter the number" required value={num1} onChange={(e) => setNum1(e.target.value)} />
           </div>
 
           <div>
             <label className='num'>Number 2</label>
-            <input type="text" placeholder="Enter the number" required value={num2} onChange={(e) => setNum2(e.target.value)} />
+            <input type="number" placeholder="Enter the number" required value={num2} onChange={(e) => setNum2(e.target.value)} />
           </div>
 
           <div className="btn">
